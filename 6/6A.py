@@ -37,27 +37,3 @@ for i in range(256):
 
 print(sum([v for v in fishhist.values()]))
 
-
-
-# def fishday(itr):
-#     for i in itr:
-#         if i == 0:
-#             yield 6
-#             yield 8
-#         else:
-#             yield i-1
-#
-#
-# for i in range(80):
-#     fishes = fishday(fishes)
-#     print(80)
-# for i in range(80):
-#     fishes = fishday(fishes)
-# print(160, len(list(fishes)))
-# for i in range(80):
-#     fishes = fishday(fishes)
-# print(240, len(list(fishes)))
-# for i in range(16):
-#     fishes = fishday(fishes)
-# print(256, len(list(fishes)))
-
